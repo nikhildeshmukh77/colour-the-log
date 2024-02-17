@@ -1,0 +1,26 @@
+{
+  "name": "colour-the-log",
+  "version": "1.0.0",
+  "description": "A library to colour your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikhildeshmukh77/colour-the-log"
+  },
+  "keywords": [
+    "coloring the logs",
+    "colour"
+  ],
+  "author": "Nikhil Deshmukh",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
