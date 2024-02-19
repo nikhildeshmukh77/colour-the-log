@@ -13,13 +13,13 @@ ConsoleLogColorizer is a lightweight Node.js package designed to enhance develop
 ## Usage
 
 ```typescript
-import { logRed, logBlue, logYellow } from 'console-log-colorizer';
+import { Log } from 'colour-the-log';
 
 // Log messages in red color
-logRed('This is an important error message');
-
-// Log messages in blue color
-logBlue('This is an informative message');
+Log.danger('This is an important error message');
 
 // Log messages in highlighted yellow color
-logYellow('This is a warning message');
+Log.info('This is an informative message');
+
+// Log messages in blue color
+log.success('This is a success message');
